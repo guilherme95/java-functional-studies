@@ -3,7 +3,7 @@ package main;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class Main {
+public class _Function {
     public static void main(String[] args) {
         System.out.println(incrementByOne.andThen(multiplyByTen).apply(3));
         System.out.println(incrementByOneAndMultiplyBy.apply(3, 10));
