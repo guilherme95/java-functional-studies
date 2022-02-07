@@ -1,4 +1,4 @@
-package main;
+package functionalinterface;
 
 import java.util.Arrays;
 import java.util.List;
