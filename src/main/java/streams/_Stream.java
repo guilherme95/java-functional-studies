@@ -26,6 +26,10 @@ public class _Stream {
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
 
+
+        boolean femaleAnyMatch = peoples.stream().anyMatch(person->FEMALE.equals(person.gender));
+        System.out.println("femaleAnyMatch: " + femaleAnyMatch);
+
     }
 
     static class Person{
